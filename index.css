@@ -1,8 +1,60 @@
 body {
     margin: 0;
+    background-color: #1B244A;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+span {
+    width: 100%;
+    background-color: #080001;
+    padding: 16px 0;
+    border-radius: 16px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 5.625rem;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+h2 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+
 }
